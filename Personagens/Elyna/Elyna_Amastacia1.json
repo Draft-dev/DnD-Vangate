@@ -1,0 +1,2832 @@
+{
+    "schema_version": 3,
+    "type": "character",
+    "character": {
+        "oldId": "-NLwogahPQNdqnJAwIwy",
+        "name": "Elyna Amastacia",
+        "avatar": "https://s3.amazonaws.com/files.d20.io/images/323534951/xaCIDLo2TEwQGp6VmL9Wbg/med.?1674087766",
+        "bio": "",
+        "gmnotes": "",
+        "defaulttoken": "",
+        "tags": "[]",
+        "controlledby": "",
+        "inplayerjournals": "all",
+        "attribs": [
+            {
+                "name": "l1mancer_status",
+                "current": "completed",
+                "max": "",
+                "id": "-NLwogdMybmwkVANaEUG"
+            },
+            {
+                "name": "rtype",
+                "current": "{{always=1}} {{r2=[[@{d20}",
+                "max": "",
+                "id": "-NLwogdNcsaGps1yfwZS"
+            },
+            {
+                "name": "wtype",
+                "current": "",
+                "max": "",
+                "id": "-NLwogdOuxtqUbFgtOIm"
+            },
+            {
+                "name": "global_damage_mod_flag",
+                "current": "1",
+                "max": "",
+                "id": "-NLwogdOuxtqUbFgtOIn"
+            },
+            {
+                "name": "strength_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{strength-save-u}}} {{mod=@{strength_save_bonus}}} {{r1=[[@{d20}+@{strength_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{strength_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeZEJOvMXabGoGH"
+            },
+            {
+                "name": "dexterity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{dexterity-save-u}}} {{mod=@{dexterity_save_bonus}}} {{r1=[[@{d20}+@{dexterity_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{dexterity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeZEJOvMXabGoGI"
+            },
+            {
+                "name": "constitution_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{constitution-save-u}}} {{mod=@{constitution_save_bonus}}} {{r1=[[@{d20}+@{constitution_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{constitution_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwoge_yj96bC_dzyea"
+            },
+            {
+                "name": "intelligence_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intelligence-save-u}}} {{mod=@{intelligence_save_bonus}}} {{r1=[[@{d20}+@{intelligence_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{intelligence_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogead4oHx4p983Gv"
+            },
+            {
+                "name": "wisdom_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{wisdom-save-u}}} {{mod=@{wisdom_save_bonus}}} {{r1=[[@{d20}+@{wisdom_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{wisdom_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogead4oHx4p983Gw"
+            },
+            {
+                "name": "charisma_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{charisma-save-u}}} {{mod=@{charisma_save_bonus}}} {{r1=[[@{d20}+@{charisma_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{charisma_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeb_DMI5qAKmQmE"
+            },
+            {
+                "name": "honor_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{honor-save-u}}} {{mod=@{honor_save_bonus}}} {{r1=[[@{d20}+@{honor_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{honor_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogecCMB4a6HKjSV-"
+            },
+            {
+                "name": "sanity_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sanity-save-u}}} {{mod=@{sanity_save_bonus}}} {{r1=[[@{d20}+@{sanity_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{sanity_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeddiKRrUb8sdUO"
+            },
+            {
+                "name": "athletics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{athletics-u}}} {{mod=@{athletics_bonus}}} {{r1=[[@{d20}+@{athletics_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{athletics_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeecgx5m-3CcDRs"
+            },
+            {
+                "name": "acrobatics_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{acrobatics-u}}} {{mod=@{acrobatics_bonus}}} {{r1=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeecgx5m-3CcDRt"
+            },
+            {
+                "name": "sleight_of_hand_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{sleight_of_hand-u}}} {{mod=@{sleight_of_hand_bonus}}} {{r1=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogefMKCOwaFjQ0a0"
+            },
+            {
+                "name": "stealth_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{stealth-u}}} {{mod=@{stealth_bonus}}} {{r1=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+3[dexterity]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogefMKCOwaFjQ0a1"
+            },
+            {
+                "name": "arcana_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{arcana-u}}} {{mod=@{arcana_bonus}}} {{r1=[[@{d20}+@{arcana_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{arcana_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogefMKCOwaFjQ0a2"
+            },
+            {
+                "name": "history_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{history-u}}} {{mod=@{history_bonus}}} {{r1=[[@{d20}+@{history_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{history_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeg74ZqEO3VVtr2"
+            },
+            {
+                "name": "investigation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{investigation-u}}} {{mod=@{investigation_bonus}}} {{r1=[[@{d20}+@{investigation_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{investigation_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeh2N7DVlI8-riS"
+            },
+            {
+                "name": "nature_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{nature-u}}} {{mod=@{nature_bonus}}} {{r1=[[@{d20}+@{nature_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{nature_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeh2N7DVlI8-riT"
+            },
+            {
+                "name": "religion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{religion-u}}} {{mod=@{religion_bonus}}} {{r1=[[@{d20}+@{religion_bonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{religion_bonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeitxBbIcMvygIN"
+            },
+            {
+                "name": "animal_handling_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{animal_handling-u}}} {{mod=@{animal_handling_bonus}}} {{r1=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogeitxBbIcMvygIO"
+            },
+            {
+                "name": "insight_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{insight-u}}} {{mod=@{insight_bonus}}} {{r1=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogejhAuAMEKmPkds"
+            },
+            {
+                "name": "medicine_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{medicine-u}}} {{mod=@{medicine_bonus}}} {{r1=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogejhAuAMEKmPkdt"
+            },
+            {
+                "name": "perception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{perception-u}}} {{mod=@{perception_bonus}}} {{r1=[[@{d20}+3[Proficiency]+1[wisdom]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+1[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogekbduJ1f21yjRQ"
+            },
+            {
+                "name": "survival_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{survival-u}}} {{mod=@{survival_bonus}}} {{r1=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[wisdom]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogekbduJ1f21yjRR"
+            },
+            {
+                "name": "deception_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{deception-u}}} {{mod=@{deception_bonus}}} {{r1=[[@{d20}+3[Proficiency]+1[charisma]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+1[charisma]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogekbduJ1f21yjRS"
+            },
+            {
+                "name": "intimidation_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{intimidation-u}}} {{mod=@{intimidation_bonus}}} {{r1=[[@{d20}+1[charisma]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[charisma]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogel__DFy8B76BDT"
+            },
+            {
+                "name": "performance_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{performance-u}}} {{mod=@{performance_bonus}}} {{r1=[[@{d20}+1[charisma]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+1[charisma]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogel__DFy8B76BDU"
+            },
+            {
+                "name": "persuasion_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{persuasion-u}}} {{mod=@{persuasion_bonus}}} {{r1=[[@{d20}+3[Proficiency]+1[charisma]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+3[Proficiency]+1[charisma]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NLwogemYLpaLlNTme4Y"
+            },
+            {
+                "name": "repeating_damagemod_-NLwoghjMHNi80TYKIP8_global_damage_active_flag",
+                "current": "1",
+                "max": "",
+                "id": "-NLwoghlmTRYIyHEzHIy"
+            },
+            {
+                "name": "global_damage_mod_roll",
+                "current": "3d6[Sneak Attack]",
+                "max": "",
+                "id": "-NLwogjW08FdHGae7C-f"
+            },
+            {
+                "name": "global_damage_mod_crit",
+                "current": "3d6[Sneak Attack]",
+                "max": "",
+                "id": "-NLwogjXwPVwSCpviZfx"
+            },
+            {
+                "name": "global_damage_mod_type",
+                "current": "Sneak",
+                "max": "",
+                "id": "-NLwogjYZhU5yzayIJae"
+            },
+            {
+                "name": "kingdom_culture_action",
+                "current": "%{Elyna Amastacia|kingdom-culture-action}",
+                "max": "",
+                "id": "-NLwoipHo8zEylfkge2a"
+            },
+            {
+                "name": "kingdom_economy_action",
+                "current": "%{Elyna Amastacia|kingdom-economy-action}",
+                "max": "",
+                "id": "-NLwoipI60cCTwYK9npl"
+            },
+            {
+                "name": "kingdom_loyalty_action",
+                "current": "%{Elyna Amastacia|kingdom-loyalty-action}",
+                "max": "",
+                "id": "-NLwoipI60cCTwYK9npm"
+            },
+            {
+                "name": "kingdom_stability_action",
+                "current": "%{Elyna Amastacia|kingdom-stability-action}",
+                "max": "",
+                "id": "-NLwoipI60cCTwYK9npn"
+            },
+            {
+                "name": "kingdom_agriculture_action",
+                "current": "%{Elyna Amastacia|kingdom-agriculture-action}",
+                "max": "",
+                "id": "-NLwoipJ-6hicT3rjmy1"
+            },
+            {
+                "name": "kingdom_arts_action",
+                "current": "%{Elyna Amastacia|kingdom-arts-action}",
+                "max": "",
+                "id": "-NLwoipJ-6hicT3rjmy2"
+            },
+            {
+                "name": "kingdom_boating_action",
+                "current": "%{Elyna Amastacia|kingdom-boating-action}",
+                "max": "",
+                "id": "-NLwoipJ-6hicT3rjmy3"
+            },
+            {
+                "name": "kingdom_defense_action",
+                "current": "%{Elyna Amastacia|kingdom-defense-action}",
+                "max": "",
+                "id": "-NLwoipJ-6hicT3rjmy4"
+            },
+            {
+                "name": "kingdom_engineering_action",
+                "current": "%{Elyna Amastacia|kingdom-engineering-action}",
+                "max": "",
+                "id": "-NLwoipJ-6hicT3rjmy5"
+            },
+            {
+                "name": "kingdom_exploration_action",
+                "current": "%{Elyna Amastacia|kingdom-exploration-action}",
+                "max": "",
+                "id": "-NLwoipKZ4Gs19EE3BRK"
+            },
+            {
+                "name": "kingdom_folklore_action",
+                "current": "%{Elyna Amastacia|kingdom-folklore-action}",
+                "max": "",
+                "id": "-NLwoipKZ4Gs19EE3BRL"
+            },
+            {
+                "name": "kingdom_industry_action",
+                "current": "%{Elyna Amastacia|kingdom-industry-action}",
+                "max": "",
+                "id": "-NLwoipKZ4Gs19EE3BRM"
+            },
+            {
+                "name": "kingdom_intrigue_action",
+                "current": "%{Elyna Amastacia|kingdom-intrigue-action}",
+                "max": "",
+                "id": "-NLwoipLl687yS0MfEUD"
+            },
+            {
+                "name": "kingdom_magic_action",
+                "current": "%{Elyna Amastacia|kingdom-magic-action}",
+                "max": "",
+                "id": "-NLwoipLl687yS0MfEUE"
+            },
+            {
+                "name": "kingdom_politics_action",
+                "current": "%{Elyna Amastacia|kingdom-politics-action}",
+                "max": "",
+                "id": "-NLwoipM0Ag42GYpkEv8"
+            },
+            {
+                "name": "kingdom_scholarship_action",
+                "current": "%{Elyna Amastacia|kingdom-scholarship-action}",
+                "max": "",
+                "id": "-NLwoipM0Ag42GYpkEv9"
+            },
+            {
+                "name": "kingdom_statecraft_action",
+                "current": "%{Elyna Amastacia|kingdom-statecraft-action}",
+                "max": "",
+                "id": "-NLwoipNjk9xHPHxGoFI"
+            },
+            {
+                "name": "kingdom_trade_action",
+                "current": "%{Elyna Amastacia|kingdom-trade-action}",
+                "max": "",
+                "id": "-NLwoipO6G8aSoukT1rv"
+            },
+            {
+                "name": "kingdom_warfare_action",
+                "current": "%{Elyna Amastacia|kingdom-warfare-action}",
+                "max": "",
+                "id": "-NLwoipPFYzMLg7sW72A"
+            },
+            {
+                "name": "kingdom_wilderness_action",
+                "current": "%{Elyna Amastacia|kingdom-wilderness-action}",
+                "max": "",
+                "id": "-NLwoipPFYzMLg7sW72B"
+            },
+            {
+                "name": "army_scouting_action",
+                "current": "%{Elyna Amastacia|army-scouting-action}",
+                "max": "",
+                "id": "-NLwoipPFYzMLg7sW72C"
+            },
+            {
+                "name": "army_maneuver_action",
+                "current": "%{Elyna Amastacia|army-maneuver-action}",
+                "max": "",
+                "id": "-NLwoipQzvVOr2eJnf5a"
+            },
+            {
+                "name": "army_morale_action",
+                "current": "%{Elyna Amastacia|army-morale-action}",
+                "max": "",
+                "id": "-NLwoipQzvVOr2eJnf5b"
+            },
+            {
+                "name": "army_ranged_action",
+                "current": "%{Elyna Amastacia|army-ranged-action}",
+                "max": "",
+                "id": "-NLwoipR7AjraleM_cyv"
+            },
+            {
+                "name": "hitdieroll",
+                "current": "8",
+                "max": "",
+                "id": "-NLwoj3hAI7E-rKb3wTx"
+            },
+            {
+                "name": "showleveler",
+                "current": 0,
+                "max": "",
+                "id": "-NLwoj3iXvEXx1juW5-A"
+            },
+            {
+                "name": "invalidXP",
+                "current": 0,
+                "max": "",
+                "id": "-NLwoj3iXvEXx1juW5-B"
+            },
+            {
+                "name": "kingmaker_tab",
+                "current": "nav-tabs-kingmaker--settings",
+                "max": "",
+                "id": "-NLwoj7V_DEm9jhsWkvS"
+            },
+            {
+                "name": "sheet_version",
+                "current": 1,
+                "max": "",
+                "id": "-NLwoj7WlC6sbB4chcQ7"
+            },
+            {
+                "name": "version",
+                "current": 4.21,
+                "max": "",
+                "id": "-NLwoj7gtppgI8Uzovn9"
+            },
+            {
+                "name": "appliedUpdates",
+                "current": "upgrade_to_4_2_1,fix_spell_attacks,fix_pc_skill_and_saving_rolls,fix_pc_saving_rolls,fix_pc_skill_and_saving_rolls_with_expertise,fix_pc_skill_and_saving_rolls_with_reliable_talent,enable_powerful_build_on_existing_characters,fix_pc_global_critical_damage_rolls,fix_pc_global_critical_stacked_damage_rolls,fix_pc_skill_rolls_tooltips,fix_pc_global_statical_critical_damage,fix_spell_school_ouput,fix_pc_global_multiple_statical_critical_damage,fix_spell_savedc_output,fix_spellpoints,fix_advantage_query,fix_attacks_spelllink,fix_pc_skills_when_jack_and_odd_prof,fix_armor_stealth_penalty,fix_pc_printedskills",
+                "max": "",
+                "id": "-NLwoj7h3tFQIlrNNSdB"
+            },
+            {
+                "name": "queryadvantage",
+                "current": "{{query=1}} ?{Advantage?|Normal Roll,&#123&#123normal=1&#125&#125 &#123&#123r2=[[0d20|Advantage,&#123&#123advantage=1&#125&#125 &#123&#123r2=[[@{d20}|Disadvantage,&#123&#123disadvantage=1&#125&#125 &#123&#123r2=[[@{d20}}",
+                "max": "",
+                "id": "-NLwoj81-Bu3RtxKUtxI"
+            },
+            {
+                "name": "stealth_bonus",
+                "current": 6,
+                "max": "",
+                "id": "-NLwoj86rFkwj5XCp_A5"
+            },
+            {
+                "name": "other_tool",
+                "current": "Gaming Set, Thieves' Tools",
+                "max": "",
+                "id": "-NLwoj88t5vyPbUX77YX"
+            },
+            {
+                "name": "other_languages",
+                "current": "",
+                "max": "",
+                "id": "-NLwoj88t5vyPbUX77YY"
+            },
+            {
+                "name": "other_armor",
+                "current": "",
+                "max": "",
+                "id": "-NLwoj89F3ONMhG7TTtQ"
+            },
+            {
+                "name": "other_weapon",
+                "current": "",
+                "max": "",
+                "id": "-NLwoj89F3ONMhG7TTtR"
+            },
+            {
+                "name": "other_other",
+                "current": "",
+                "max": "",
+                "id": "-NLwoj89F3ONMhG7TTtS"
+            },
+            {
+                "name": "mancer_confirm_flag",
+                "current": "",
+                "max": "",
+                "id": "-NLwoj8CL0hxZVsIhJeQ"
+            },
+            {
+                "name": "mancer_cancel",
+                "current": "on",
+                "max": "",
+                "id": "-NLwomnPi1mV3YKRw8Md"
+            },
+            {
+                "name": "repeating_damagemod_-NLwoghjMHNi80TYKIP8_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NLwpBlwFJWgIDjVj8tk"
+            },
+            {
+                "name": "race",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66Zm1Hxa2o3W3BNmZ"
+            },
+            {
+                "name": "race_display",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66Zm7gvApaZnCjJqY"
+            },
+            {
+                "name": "speed",
+                "current": "35 ft. ",
+                "max": "",
+                "id": "-NM66Zm9nyuFaC0PqBNZ"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_name",
+                "current": "Age",
+                "max": "",
+                "id": "-NM66ZmCsKZ63rN02AVq"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmDlJcYVrv_QInm"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmFSTPuPdsdDHbP"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_description",
+                "current": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+                "max": "",
+                "id": "-NM66ZmGeMBpX_z49jsK"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmHNBeJltHnr2H2"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_name",
+                "current": "Size",
+                "max": "",
+                "id": "-NM66ZmINqiVv5qREVlq"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmJZQjCBGPKevsC"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmKKOtQAVgLLRKw"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_description",
+                "current": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+                "max": "",
+                "id": "-NM66ZmLKR54dFImRYhT"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmMdUmei5Iej0Bq"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_name",
+                "current": "Darkvision",
+                "max": "",
+                "id": "-NM66ZmNnVUlgHMM6LVi"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmOs4Cl4FZEMlPo"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmPuOaQBJiDPG4r"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_description",
+                "current": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+                "max": "",
+                "id": "-NM66ZmQNOqz5CFWVSnj"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmR954vT9o21IUN"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_name",
+                "current": "Keen Senses",
+                "max": "",
+                "id": "-NM66ZmSm-ZHooVs7a7S"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmTBdTCWLIFzN6d"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmUv1gMuW_4MiGa"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_description",
+                "current": "You have proficiency in the Perception skill.",
+                "max": "",
+                "id": "-NM66ZmVs7Ny0rNsKGIY"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmWoqUVBLQaG8wg"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_name",
+                "current": "Fey Ancestry",
+                "max": "",
+                "id": "-NM66ZmWoqUVBLQaG8wi"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmX4NHK4VFAvXFJ"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmY7K9YoHScf7j1"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_description",
+                "current": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+                "max": "",
+                "id": "-NM66ZmY7K9YoHScf7j2"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmZ2VmKhnmGwsC9"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_name",
+                "current": "Trance",
+                "max": "",
+                "id": "-NM66Zm_HyOmLqezqHr-"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66Zm_HyOmLqezqHr0"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmamS3ufWMbn5Sf"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_description",
+                "current": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\n\nIf you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.",
+                "max": "",
+                "id": "-NM66ZmamS3ufWMbn5Sg"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmcHDI202IhizBh"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_name",
+                "current": "Languages",
+                "max": "",
+                "id": "-NM66ZmdcxflgASgVXVE"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmemSzkXczQMrws"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmfeEiSwFCI3np5"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_description",
+                "current": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+                "max": "",
+                "id": "-NM66ZmfeEiSwFCI3np6"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmgmuYXg-qmxI0M"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_name",
+                "current": "Elf Weapon Training",
+                "max": "",
+                "id": "-NM66ZmgmuYXg-qmxI0O"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmhdB3ExQDxgaXJ"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmiSlCFHpn9U7sU"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_description",
+                "current": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+                "max": "",
+                "id": "-NM66ZmjWqe2xkbAHNia"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmjWqe2xkbAHNib"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_name",
+                "current": "Fleet of Foot",
+                "max": "",
+                "id": "-NM66ZmkOaXzJ5RmXQW1"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66ZmlOn2DAAKfUUwZ"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmlOn2DAAKfUUw_"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_description",
+                "current": "Your base walking speed increases to 35 feet.",
+                "max": "",
+                "id": "-NM66ZmmVwtYfIO4ngNw"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmmVwtYfIO4ngNx"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_name",
+                "current": "Mask of the Wild",
+                "max": "",
+                "id": "-NM66Zmnr9kWtzrAhnDW"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_source",
+                "current": "Race",
+                "max": "",
+                "id": "-NM66Zmo20JgPdzxeIbr"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_source_type",
+                "current": "Elf (Wood)",
+                "max": "",
+                "id": "-NM66ZmpIylR9H9mff57"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_description",
+                "current": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+                "max": "",
+                "id": "-NM66ZmrgRgddApwG1B-"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmrgRgddApwG1B0"
+            },
+            {
+                "name": "repeating_proficiencies_-NM66ZmsXw3jS6GUN2Ba_name",
+                "current": "Common, Elvish",
+                "max": "",
+                "id": "-NM66ZmsXw3jS6GUN2Bb"
+            },
+            {
+                "name": "repeating_proficiencies_-NM66ZmsXw3jS6GUN2Ba_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM66ZmtIMfGqajIYssI"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmCsKZ63rN02AVp_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68uqN2jVrjyMJ5BdE"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmINqiVv5qREVlp_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68v27Fn5qlagLUnCG"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmNnVUlgHMM6LVh_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68v9wqejtldnT41eU"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmSm-ZHooVs7a7R_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68vYnBdiXEU8cejt-"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmWoqUVBLQaG8wh_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68wM5jkjQ-0TSzdC9"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmZHyOmLqezqHqz_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68wimOQ2K2U-lEcso"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmdcxflgASgVXVD_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68x00LMQwZNMPA9Yf"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmgmuYXg-qmxI0N_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68xbLs3im866hxBuS"
+            },
+            {
+                "name": "repeating_traits_-NM66ZmkOaXzJ5RmXQW0_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68yWooF2DQUWGCs59"
+            },
+            {
+                "name": "repeating_traits_-NM66Zmnr9kWtzrAhnDV_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM68ymih99rQ1N2euOR"
+            },
+            {
+                "name": "wisdom_base",
+                "current": "13",
+                "max": "",
+                "id": "-NM68zi9MfRIQgao31SL"
+            },
+            {
+                "name": "wisdom_flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM68zkD0J41zRPKF8HF"
+            },
+            {
+                "name": "wisdom",
+                "current": 13,
+                "max": "",
+                "id": "-NM68zkEtuOwrGCBbj2m"
+            },
+            {
+                "name": "wisdom_mod",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zkGLvytzJ_iY5lv"
+            },
+            {
+                "name": "npc_wis_negative",
+                "current": 0,
+                "max": "",
+                "id": "-NM68zmK3eb01SHpUWfz"
+            },
+            {
+                "name": "spell_attack_bonus",
+                "current": "0",
+                "max": "",
+                "id": "-NM68zmNHR_xS26t2l91"
+            },
+            {
+                "name": "spell_save_dc",
+                "current": "0",
+                "max": "",
+                "id": "-NM68zmO2rAXOBi2IEtE"
+            },
+            {
+                "name": "wisdom_save_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zmWw8xZfilf1oq1"
+            },
+            {
+                "name": "animal_handling_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zmY6KeQguoNPGgF"
+            },
+            {
+                "name": "insight_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zmZMkMPnyLlZ7cy"
+            },
+            {
+                "name": "medicine_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zmb-BMibVi5dtED"
+            },
+            {
+                "name": "perception_bonus",
+                "current": 4,
+                "max": "",
+                "id": "-NM68zmcfaTm4oJZs7nE"
+            },
+            {
+                "name": "survival_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM68zmeNpsYPJhCxcBk"
+            },
+            {
+                "name": "passive_wisdom",
+                "current": 14,
+                "max": "",
+                "id": "-NM68znGk7tERu94IDzV"
+            },
+            {
+                "name": "pb",
+                "current": "3",
+                "max": "",
+                "id": "-NM69J0dng2gaZcdJEy_"
+            },
+            {
+                "name": "class",
+                "current": "Rogue",
+                "max": "",
+                "id": "-NM69J0gPPiApOzAc2Wa"
+            },
+            {
+                "name": "level",
+                "current": 6,
+                "max": "",
+                "id": "-NM69J0jqdIB2VXRirRk"
+            },
+            {
+                "name": "base_level",
+                "current": "6",
+                "max": "",
+                "id": "-NM69J0lAIfYZJkYH3GL"
+            },
+            {
+                "name": "hero_points",
+                "current": 8,
+                "max": "",
+                "id": "-NM69J35q3zOLRC61UlI"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_name",
+                "current": "Expertise",
+                "max": "",
+                "id": "-NM69KWoAKtCUIS_49iM"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KWquNnbCfI3MBB1"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_source_type",
+                "current": "Rogue 1",
+                "max": "",
+                "id": "-NM69KWrvbzVnjXT5fe_"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_description",
+                "current": "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.",
+                "max": "",
+                "id": "-NM69KWsRVSQ3k9IfcmR"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KWtWfoBi9E9ox--"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_name",
+                "current": "Sneak Attack",
+                "max": "",
+                "id": "-NM69KWwKSmxxS6DUI1U"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KWxdBi9oXNZh7ik"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_source_type",
+                "current": "Rogue 1",
+                "max": "",
+                "id": "-NM69KWy-0e5xZA42x0_"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_description",
+                "current": "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.",
+                "max": "",
+                "id": "-NM69KWzg4kjikmDvUD1"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KX-ZCf1xjbjICJE"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_name",
+                "current": "Thieves' Cant",
+                "max": "",
+                "id": "-NM69KX0t54RRj3F-587"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KX1YZ9hU1RVzwCD"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_source_type",
+                "current": "Rogue 1",
+                "max": "",
+                "id": "-NM69KX2FSAhGYQ6qnho"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_description",
+                "current": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.\n\nIn addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.",
+                "max": "",
+                "id": "-NM69KX48IRo61lMXHmd"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KX48IRo61lMXHme"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_name",
+                "current": "Cunning Action",
+                "max": "",
+                "id": "-NM69KX75yG-ibiBgXWW"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KX8iDqAx6wUpLMg"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_source_type",
+                "current": "Rogue 2",
+                "max": "",
+                "id": "-NM69KX9mB7PBucYdSYi"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_description",
+                "current": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
+                "max": "",
+                "id": "-NM69KX9mB7PBucYdSYj"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KXAC1fkmDMv7kKi"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_name",
+                "current": "Cunning Action: Aim",
+                "max": "",
+                "id": "-NM69KXBs89qRorxpAVs"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KXCT1sg2rkSXPDU"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_source_type",
+                "current": "Rogue 2",
+                "max": "",
+                "id": "-NM69KXDf_yib4ERlzzR"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_description",
+                "current": "2nd-level rogue feature (enhances Cunning Action)\n\nYou gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.",
+                "max": "",
+                "id": "-NM69KXDf_yib4ERlzzS"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KXEdTa-mSxxI4jR"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_name",
+                "current": "Steady Aim",
+                "max": "",
+                "id": "-NM69KXG3wvfhQTNQ4iF"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KXG3wvfhQTNQ4iG"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_source_type",
+                "current": "Rogue 3",
+                "max": "",
+                "id": "-NM69KXHCTJpGWLxz4qc"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_description",
+                "current": "3rd-level rogue optional feature\n\nAs a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.",
+                "max": "",
+                "id": "-NM69KXIfXB5r_09Hf4O"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KXJqwv1AUq-Tyt3"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_name",
+                "current": "Proficiency Versatility",
+                "max": "",
+                "id": "-NM69KXK_W67A_bhjalP"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KXL5WpDsAJsxgOp"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_source_type",
+                "current": "Rogue 4",
+                "max": "",
+                "id": "-NM69KXL5WpDsAJsxgOq"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_description",
+                "current": "4th-level feature (enhances Ability Score Improvement)\n\nWhen you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).\n\nThis change represents one of your skills atrophying as you focus on a different skill.",
+                "max": "",
+                "id": "-NM69KXMZaQ4ATztZKEa"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KXNq6DsbHR32uYq"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_name",
+                "current": "Uncanny Dodge",
+                "max": "",
+                "id": "-NM69KXOY32_eMWyirRE"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NM69KXPYzMn2I65lMeU"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_source_type",
+                "current": "Rogue 5",
+                "max": "",
+                "id": "-NM69KXQnopg1yaKznpu"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_description",
+                "current": "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.",
+                "max": "",
+                "id": "-NM69KXRE3h17gFYsyEz"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM69KXSaW3QfjGMpaEb"
+            },
+            {
+                "name": "repeating_traits_-NM69KWoAKtCUISZ49iL_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69LmAkgM53H87Ba6t"
+            },
+            {
+                "name": "repeating_traits_-NM69KWwKSmxxS6DUI1T_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69M0KijcyhKsBJQuZ"
+            },
+            {
+                "name": "repeating_traits_-NM69KX0t54RRj3F-586_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69MEQIhM3nnrtnTsy"
+            },
+            {
+                "name": "repeating_traits_-NM69KX75yG-ibiBgXWV_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69MYThytUovv5Hwji"
+            },
+            {
+                "name": "repeating_traits_-NM69KXBs89qRorxpAVr_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69MhtCMbJdze9pT3z"
+            },
+            {
+                "name": "repeating_traits_-NM69KXG3wvfhQTNQ4iE_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69MyIY6JbgzXki6vU"
+            },
+            {
+                "name": "repeating_traits_-NM69KXKZW67AZbhjalO_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69N5N2TcK_3kafPyU"
+            },
+            {
+                "name": "repeating_traits_-NM69KXOY32ZeMWyirRD_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM69NMISSdvjuQ-IGba"
+            },
+            {
+                "name": "dexterity_save_prof",
+                "current": "(@{pb})",
+                "max": "",
+                "id": "-NM69u7YR7_Kg_x1Gg6L"
+            },
+            {
+                "name": "dexterity_save_bonus",
+                "current": 6,
+                "max": "",
+                "id": "-NM69u9s3NNwrukYnLaR"
+            },
+            {
+                "name": "intelligence_save_prof",
+                "current": "(@{pb})",
+                "max": "",
+                "id": "-NM69uL_2for9vGcOV8j"
+            },
+            {
+                "name": "intelligence_save_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-NM69uNoLIcSSs0LYlcv"
+            },
+            {
+                "name": "dexterity_base",
+                "current": "16",
+                "max": "",
+                "id": "-NM6C23rJBIduwi7lGdA"
+            },
+            {
+                "name": "dexterity_flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C26GYPmYvirPIb7a"
+            },
+            {
+                "name": "dexterity",
+                "current": 16,
+                "max": "",
+                "id": "-NM6C26JONib-Ti-50a7"
+            },
+            {
+                "name": "dexterity_mod",
+                "current": 3,
+                "max": "",
+                "id": "-NM6C26L_xxgVB127T_O"
+            },
+            {
+                "name": "npc_dex_negative",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C28sMLftiPICMjSi"
+            },
+            {
+                "name": "initiative_bonus",
+                "current": 3,
+                "max": "",
+                "id": "-NM6C28wgVqVwPSBM8kD"
+            },
+            {
+                "name": "acrobatics_bonus",
+                "current": 6,
+                "max": "",
+                "id": "-NM6C29-j1APn_trPm0t"
+            },
+            {
+                "name": "sleight_of_hand_bonus",
+                "current": 6,
+                "max": "",
+                "id": "-NM6C290eurOkZIoQjXA"
+            },
+            {
+                "name": "armorwarningflag",
+                "current": "hide",
+                "max": "",
+                "id": "-NM6C29dc2tIfP9qMNju"
+            },
+            {
+                "name": "customacwarningflag",
+                "current": "hide",
+                "max": "",
+                "id": "-NM6C29eKLj0QLg-xSV3"
+            },
+            {
+                "name": "ac",
+                "current": 15,
+                "max": "",
+                "id": "-NM6C29fRYyN719D_kX6"
+            },
+            {
+                "name": "constitution_base",
+                "current": "14",
+                "max": "",
+                "id": "-NM6C2Qio8JYGSDPEqiL"
+            },
+            {
+                "name": "constitution_flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C2T2n4zPlvAvhJPF"
+            },
+            {
+                "name": "constitution",
+                "current": 14,
+                "max": "",
+                "id": "-NM6C2T3u_CaHExFfpjm"
+            },
+            {
+                "name": "constitution_mod",
+                "current": 2,
+                "max": "",
+                "id": "-NM6C2T5hncDXlgi0Ok-"
+            },
+            {
+                "name": "npc_con_negative",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C2VOA7wXPnluTo6V"
+            },
+            {
+                "name": "constitution_save_bonus",
+                "current": 2,
+                "max": "",
+                "id": "-NM6C2VRh2fHECtPN2ss"
+            },
+            {
+                "name": "intelligence_base",
+                "current": "11",
+                "max": "",
+                "id": "-NM6C7W-dhRpwrvZ2ZoH"
+            },
+            {
+                "name": "intelligence_flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7YDTDJSia5VQj8x"
+            },
+            {
+                "name": "intelligence",
+                "current": 11,
+                "max": "",
+                "id": "-NM6C7YF_rSYaWwdjuK1"
+            },
+            {
+                "name": "intelligence_mod",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7YG_QUsL3sMZdRh"
+            },
+            {
+                "name": "npc_int_negative",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_KTyqrxogqTBKy"
+            },
+            {
+                "name": "arcana_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_N0SOPXDoQuM-L"
+            },
+            {
+                "name": "history_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_PGkG-zK21WKxU"
+            },
+            {
+                "name": "investigation_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_QUHwJYqOc1hQE"
+            },
+            {
+                "name": "nature_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_SNkJBIs4uL7qN"
+            },
+            {
+                "name": "religion_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C7_TWbQr5IB0vf_1"
+            },
+            {
+                "name": "charisma_base",
+                "current": "12",
+                "max": "",
+                "id": "-NM6C9EVCC2YdPEWU6PT"
+            },
+            {
+                "name": "charisma_flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C9GZsLQkymGmKdOJ"
+            },
+            {
+                "name": "charisma",
+                "current": 12,
+                "max": "",
+                "id": "-NM6C9GaF1kIf-xX9VDk"
+            },
+            {
+                "name": "charisma_mod",
+                "current": 1,
+                "max": "",
+                "id": "-NM6C9Gcd2WcIzFeEsR9"
+            },
+            {
+                "name": "npc_cha_negative",
+                "current": 0,
+                "max": "",
+                "id": "-NM6C9IuRo11TY8JQsgx"
+            },
+            {
+                "name": "charisma_save_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM6C9IysIjNLwnVPhDT"
+            },
+            {
+                "name": "deception_bonus",
+                "current": 4,
+                "max": "",
+                "id": "-NM6C9J-YK9JmGIU3fTi"
+            },
+            {
+                "name": "intimidation_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM6C9J1Hej3ksQUPaiC"
+            },
+            {
+                "name": "performance_bonus",
+                "current": 1,
+                "max": "",
+                "id": "-NM6C9J2ISRekSNSoB3i"
+            },
+            {
+                "name": "persuasion_bonus",
+                "current": 4,
+                "max": "",
+                "id": "-NM6C9J3bLacqnWFZEHc"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_description",
+                "current": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:\n\n    Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n\n    Your ranged weapon attacks ignore half and three-quarters cover.\n\n    Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If that attack hits, you add +10 to the attack's damag",
+                "max": "",
+                "id": "-NM6GXIbpqept26YXL3m"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_name",
+                "current": "Sharpshooter",
+                "max": "",
+                "id": "-NM6GZ0nICjDt9htwQlO"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_source",
+                "current": "Talento",
+                "max": "",
+                "id": "-NM6GZg-p5yD245xNwWp"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_source_type",
+                "current": "Player's Handbook",
+                "max": "",
+                "id": "-NM6G_bR0jMuKQEYYGng"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6G_rkwmRIjsTNT6i9"
+            },
+            {
+                "name": "repeating_traits_-NM6EiZIxJs0zPrW24-S_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM6GaBz1FrXKTQrP4Ul"
+            },
+            {
+                "name": "hp",
+                "current": "45",
+                "max": "45",
+                "id": "-NM6Gyd-3EE6GQ6P1inb"
+            },
+            {
+                "name": "hitdie_final",
+                "current": "@{hitdietype}",
+                "max": "",
+                "id": "-NM6H2BlyncyM58ExsAs"
+            },
+            {
+                "name": "caster_level",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2BozVzLK4O-3qq3"
+            },
+            {
+                "name": "class_display",
+                "current": "Assassin Rogue 6",
+                "max": "",
+                "id": "-NM6H2BrX5QyDU13Zild"
+            },
+            {
+                "name": "hit_dice",
+                "current": "6",
+                "max": 6,
+                "id": "-NM6H2BuHIDNAo_npLuP"
+            },
+            {
+                "name": "jack",
+                "current": 1,
+                "max": "",
+                "id": "-NM6H2C2qGg_U462VKZ9"
+            },
+            {
+                "name": "pbd_safe",
+                "current": "",
+                "max": "",
+                "id": "-NM6H2C4IFRO3R199g66"
+            },
+            {
+                "name": "lvl1_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2CdRFFA9VtVqBUV"
+            },
+            {
+                "name": "lvl2_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2CfWnCedP24Vd3h"
+            },
+            {
+                "name": "lvl3_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2ChE-JsUIUtU87B"
+            },
+            {
+                "name": "lvl4_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2Cifec2ElejEe5f"
+            },
+            {
+                "name": "lvl5_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2Cjc2wK4A4SR66D"
+            },
+            {
+                "name": "lvl6_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2CkBSJZxtIFudRG"
+            },
+            {
+                "name": "lvl7_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2ClB1vfUc5bQZI7"
+            },
+            {
+                "name": "lvl8_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2CmJe3--LvHZw6K"
+            },
+            {
+                "name": "lvl9_slots_total",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2CnOJlRFOQNZd9K"
+            },
+            {
+                "name": "jack_bonus",
+                "current": "",
+                "max": "",
+                "id": "-NM6H2DNrzyh82c9Iy41"
+            },
+            {
+                "name": "jack_attr",
+                "current": "",
+                "max": "",
+                "id": "-NM6H2DPLNByUl1EbsG7"
+            },
+            {
+                "name": "strength_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2DYdvJahK9mVg2L"
+            },
+            {
+                "name": "honor_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2D_uS6faYbte7ja"
+            },
+            {
+                "name": "sanity_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2DaW__GtkA91NBn"
+            },
+            {
+                "name": "death_save_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2DcOifuCPpj0pIG"
+            },
+            {
+                "name": "athletics_bonus",
+                "current": 0,
+                "max": "",
+                "id": "-NM6H2DdAjFGCwGHkBbq"
+            },
+            {
+                "name": "death_save_roll",
+                "current": "@{wtype}&{template:simple} {{rname=^{death-save-u}}} {{mod=@{death_save_bonus}}} {{r1=[[@{d20}+@{death_save_bonus}@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{death_save_bonus}@{pbd_safe}]]}} {{global=@{global_save_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6H2EMSAPjeUEuP2bE"
+            },
+            {
+                "name": "kingdom_drop_name",
+                "current": "Studded Leather Armor",
+                "max": "",
+                "id": "-NM6HErhuTjfHhVgMvDe"
+            },
+            {
+                "name": "kingdom_drop_data",
+                "current": "{\"AC\":\"12\",\"Source\":\"5th Edition SRD\",\"Weight\":\"13\",\"Subtype\":\"Armor\",\"Category\":\"Items\",\"Item Type\":\"Light Armor\",\"Item Rarity\":\"Standard\",\"blobs\":{}}",
+                "max": "",
+                "id": "-NM6HErlIsP83UZXVoNw"
+            },
+            {
+                "name": "drop_category",
+                "current": "",
+                "max": "",
+                "id": "-NM6HErr2s_gXJreYH0d"
+            },
+            {
+                "name": "drop_name",
+                "current": "",
+                "max": "",
+                "id": "-NM6HErv5RdLl_FcPo2b"
+            },
+            {
+                "name": "drop_data",
+                "current": "",
+                "max": "",
+                "id": "-NM6HErztOmtYqu2WptJ"
+            },
+            {
+                "name": "drop_content",
+                "current": "",
+                "max": "",
+                "id": "-NM6HEv5SXw2YE8xkaLI"
+            },
+            {
+                "name": "tab",
+                "current": "core",
+                "max": "",
+                "id": "-NM6HEv7Y0K575T0pozf"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemname",
+                "current": "Longbow",
+                "max": "",
+                "id": "-NM6HEv9mr3EFVqUDL6O"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemcount",
+                "current": 1,
+                "max": "",
+                "id": "-NM6HEvBIrnVqR_AxfLr"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemproperties",
+                "current": "Ammunition, Heavy, Range, Two-Handed",
+                "max": "",
+                "id": "-NM6HEvD8GL3y3DagM5W"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemweight",
+                "current": "2",
+                "max": "",
+                "id": "-NM6HEvEBEprCJcqz-A7"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemcontent",
+                "current": "",
+                "max": "",
+                "id": "-NM6HEvGiBk6EP1Gyu6o"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemmodifiers",
+                "current": "Item Type: Ranged Weapon, Damage: 1d8, Damage Type: Piercing, Range: 150/600,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20",
+                "max": "",
+                "id": "-NM6HEvHr6hM7RXOG_YM"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_hasattack",
+                "current": 1,
+                "max": "",
+                "id": "-NM6HEvJTshb8raB__Od"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NM6HEvKkaYO0M8pLXOc"
+            },
+            {
+                "name": "repeating_inventory_-NM6HEv2qgs-XqYMRi2S_itemattackid",
+                "current": "-NM6HEvMtVCHTvEb1EL6",
+                "max": "",
+                "id": "-NM6HEvqJloYgL-329U1"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6HEvs5pdy3MrcHGXw"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_itemid",
+                "current": "-NM6HEv2qgs-XqYMRi2S",
+                "max": "",
+                "id": "-NM6HEvtNluF2GyYsvkA"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkname",
+                "current": "Longbow",
+                "max": "",
+                "id": "-NM6HEvuYNxp_GacqcZJ"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_dmgbase",
+                "current": "1d8",
+                "max": "",
+                "id": "-NM6HEvwacviLiEw-F6n"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_dmgtype",
+                "current": "Piercing",
+                "max": "",
+                "id": "-NM6HEvy96Apd1crNzj3"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkrange",
+                "current": "150/600",
+                "max": "",
+                "id": "-NM6HEw-mDyGiuGuacHP"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkattr_base",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6HEw0WRiqU6QB5wsy"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_dmgattr",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6HEw2tmCaKrxr3Hdc"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkmagic",
+                "current": "",
+                "max": "",
+                "id": "-NM6HEw3f4Y85rEEcrg7"
+            },
+            {
+                "name": "weighttotal",
+                "current": 30.3,
+                "max": "",
+                "id": "-NM6HEwcrio2tk_9bEui"
+            },
+            {
+                "name": "encumberance",
+                "current": " ",
+                "max": "",
+                "id": "-NM6HEwdUiPwCe_fXDFB"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkdmgtype",
+                "current": "1d8+3 Piercing ",
+                "max": "",
+                "id": "-NM6HEweEvI97PrmHZvT"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_rollbase_dmg",
+                "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6HEwfoX8fYxNETQ2c"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_rollbase_crit",
+                "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagecrit=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6HEwgFiGWcEhV2r7z"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_atkbonus",
+                "current": "+6",
+                "max": "",
+                "id": "-NM6HEwji-tnpFXMec_n"
+            },
+            {
+                "name": "repeating_attack_-NM6HEvMtVCHTvEb1EL6_rollbase",
+                "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+                "max": "",
+                "id": "-NM6HEwlseeHGfbU9YVj"
+            },
+            {
+                "name": "stealth_prof",
+                "current": "(@{pb}*@{stealth_type})",
+                "max": "",
+                "id": "-NM6HceT-MEicXhONy0S"
+            },
+            {
+                "name": "perception_prof",
+                "current": "(@{pb}*@{perception_type})",
+                "max": "",
+                "id": "-NM6HeXSzmL8ijgh-kf_"
+            },
+            {
+                "name": "sleight_of_hand_prof",
+                "current": "(@{pb}*@{sleight_of_hand_type})",
+                "max": "",
+                "id": "-NM6HmS3nHgDF2M9gqez"
+            },
+            {
+                "name": "acrobatics_prof",
+                "current": "(@{pb}*@{acrobatics_type})",
+                "max": "",
+                "id": "-NM6IAEXk9prp7abpkmR"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemname",
+                "current": "Thieves' Tools",
+                "max": "",
+                "id": "-NM6Ij896piPXsgj5350"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemcount",
+                "current": 1,
+                "max": "",
+                "id": "-NM6Ij8DmRuxqF3o5q8a"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemproperties",
+                "current": "",
+                "max": "",
+                "id": "-NM6Ij8FNpydC1U5BEr8"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemweight",
+                "current": "1",
+                "max": "",
+                "id": "-NM6Ij8GbaaF3ipaEEb7"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemcontent",
+                "current": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.\n\n",
+                "max": "",
+                "id": "-NM6Ij8IiWxDgbsM7NGT"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_itemmodifiers",
+                "current": "Item Type: Adventuring Gear",
+                "max": "",
+                "id": "-NM6Ij8KaMX81shJega-"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_hasattack",
+                "current": 0,
+                "max": "",
+                "id": "-NM6Ij8M9l14oJnXrIen"
+            },
+            {
+                "name": "repeating_inventory_-NM6Ij85ZVsV0KQrx72G_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NM6Ij8Nat4jHi5U4got"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6Iuz3gbELdMinkx-F_name",
+                "current": "Light Armor",
+                "max": "",
+                "id": "-NM6Iuz5E2xxTk7W0rlB"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6Iuz3gbELdMinkx-F_prof_type",
+                "current": "ARMOR",
+                "max": "",
+                "id": "-NM6Iuz8hOM1W-mOXOJp"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6Iuz3gbELdMinkx-F_options-flag",
+                "current": 0,
+                "max": "",
+                "id": "-NM6Iuz9r1gZX6VTynQH"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6J1mNT0lCSWNrYYme_name",
+                "current": "Simple Weapons, Longsword, Hand Crossbows, Rapier, Shortsword",
+                "max": "",
+                "id": "-NM6J1mQPl7Bm8qCbPRr"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6J1mNT0lCSWNrYYme_prof_type",
+                "current": "WEAPON",
+                "max": "",
+                "id": "-NM6J1mTJJCRKKBDTx0s"
+            },
+            {
+                "name": "repeating_proficiencies_-NM6J1mNT0lCSWNrYYme_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6J1mW_q1K2GNJXfGv"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemname",
+                "current": "Rapier",
+                "max": "",
+                "id": "-NM6J_yTc0Y4c_7pKVnk"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemcount",
+                "current": 1,
+                "max": "",
+                "id": "-NM6J_yYOWKNgKOO5Lys"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemproperties",
+                "current": "Finesse",
+                "max": "",
+                "id": "-NM6J_y_FkQBpqVf6vKj"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemweight",
+                "current": "2",
+                "max": "",
+                "id": "-NM6J_ydcwdJfWZsY0kg"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemcontent",
+                "current": "",
+                "max": "",
+                "id": "-NM6J_yfICLlBN9jBGg8"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemmodifiers",
+                "current": "Item Type: Melee Weapon, Damage: 1d8, Damage Type: Piercing",
+                "max": "",
+                "id": "-NM6J_yh0gC6qTDVv384"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_hasattack",
+                "current": 1,
+                "max": "",
+                "id": "-NM6J_ym8sy48ol7v1HG"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NM6J_yo7OvWlqRz2SK2"
+            },
+            {
+                "name": "repeating_inventory_-NM6JZyR2gUpiBz1T3EM_itemattackid",
+                "current": "-NM6JZyqOBVQA0763vhV",
+                "max": "",
+                "id": "-NM6J_zfDlsDxBFflOlc"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6J_zhZADjIgYVEVxH"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_itemid",
+                "current": "-NM6JZyR2gUpiBz1T3EM",
+                "max": "",
+                "id": "-NM6J_ziUjvdfgXgaXo1"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_atkname",
+                "current": "Rapier",
+                "max": "",
+                "id": "-NM6J_zjL78xVTjQ277c"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_dmgbase",
+                "current": "1d8",
+                "max": "",
+                "id": "-NM6J_zmDFrrgRN9rAT6"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_dmgtype",
+                "current": "Piercing",
+                "max": "",
+                "id": "-NM6J_znt0yEI8ZIAGr7"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_atkattr_base",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6J_zo_aWL7n9gamG0"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_dmgattr",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6J_zpOOJrizE5a8hJ"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_atkmagic",
+                "current": "",
+                "max": "",
+                "id": "-NM6J_zryYbjzl4KFfmm"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_atkdmgtype",
+                "current": "1d8+3 Piercing ",
+                "max": "",
+                "id": "-NM6Ja-IzgZyzQ-l1glj"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_rollbase_dmg",
+                "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6Ja-KQ7joEB3xTF8u"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_rollbase_crit",
+                "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d8 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagecrit=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6Ja-Lnk9jXlHh4JsJ"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_atkbonus",
+                "current": "+6",
+                "max": "",
+                "id": "-NM6Ja-NXF-on-gh7PHJ"
+            },
+            {
+                "name": "repeating_attack_-NM6JZyqOBVQA0763vhV_rollbase",
+                "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+                "max": "",
+                "id": "-NM6Ja-PlK6I9kelUmGn"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemname",
+                "current": "Arrows",
+                "max": "",
+                "id": "-NM6Jl4DegDqh3l3qIDH"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemcount",
+                "current": "20",
+                "max": "",
+                "id": "-NM6Jl4IBppHDP8eW-63"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemproperties",
+                "current": "",
+                "max": "",
+                "id": "-NM6Jl4JlD83J7ua5Lgy"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemweight",
+                "current": "0.05",
+                "max": "",
+                "id": "-NM6Jl4KcHZ7Jg63LJQz"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemcontent",
+                "current": "Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.\n\n",
+                "max": "",
+                "id": "-NM6Jl4MtDgrbEqB4M0z"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemmodifiers",
+                "current": "Item Type: Ammunition",
+                "max": "",
+                "id": "-NM6Jl4POdNAWALUTFu_"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_hasattack",
+                "current": 0,
+                "max": "",
+                "id": "-NM6Jl4QaZSz5MZb4QCL"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_useasresource",
+                "current": 1,
+                "max": "",
+                "id": "-NM6Jl4SiSyw6Yj7I91f"
+            },
+            {
+                "name": "repeating_inventory_-NM6Jl48QyjA7UtRCb-f_itemresourceid",
+                "current": "other_resource",
+                "max": "",
+                "id": "-NM6Jl57P4iuJwzQEc_C"
+            },
+            {
+                "name": "other_resource_itemid",
+                "current": "-NM6Jl48QyjA7UtRCb-f",
+                "max": "",
+                "id": "-NM6Jl5C5cY8qYKZvL8V"
+            },
+            {
+                "name": "other_resource_name",
+                "current": "Arrows",
+                "max": "",
+                "id": "-NM6Jl5DpChXT5GFEuz6"
+            },
+            {
+                "name": "other_resource",
+                "current": "20",
+                "max": "20",
+                "id": "-NM6Jl5EDhiEWUqKZgNB"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemname",
+                "current": "Burglar's Pack",
+                "max": "",
+                "id": "-NM6K3PWGpyzWcVj18BM"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemcount",
+                "current": 1,
+                "max": "",
+                "id": "-NM6K3PZLnMmcVxBnX99"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemproperties",
+                "current": "",
+                "max": "",
+                "id": "-NM6K3Pc7FflC_e2DvDP"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemweight",
+                "current": 0,
+                "max": "",
+                "id": "-NM6K3PeWQuG_FGaF57v"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemcontent",
+                "current": "Includes:\n\n• a backpack\n\n• a bag of 1,000 ball bearings\n\n• 10 feet of string\n\n• a bell\n\n• 5 candles\n\n• a crowbar\n\n• a hammer\n\n• 10 pitons\n\n• a hooded lantern\n\n• 2 flasks of oil\n\n• 5 days rations\n\n• a tinderbox\n\n• a waterskin\n\n• 50 feet of hempen rope\n\n",
+                "max": "",
+                "id": "-NM6K3PhWEFIOmdvoIId"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_itemmodifiers",
+                "current": "Item Type: Items",
+                "max": "",
+                "id": "-NM6K3PjcslGs5lGOlk9"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_hasattack",
+                "current": 0,
+                "max": "",
+                "id": "-NM6K3Pl_HYoGJc9LmoY"
+            },
+            {
+                "name": "repeating_inventory_-NM6K3PQilqiIMI4Tf0x_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NM6K3Pn73k8nXNl1xpP"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemname",
+                "current": "Dagger",
+                "max": "",
+                "id": "-NM6K8D-KAssNVfWbSYR"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemcount",
+                "current": "2",
+                "max": "",
+                "id": "-NM6K8D1_YfnFvGD2RzM"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemproperties",
+                "current": "Finesse, Light, Range, Thrown",
+                "max": "",
+                "id": "-NM6K8D3gKFX-uCt6GrT"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemweight",
+                "current": "1",
+                "max": "",
+                "id": "-NM6K8D57KYzPrz6qec4"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemcontent",
+                "current": "",
+                "max": "",
+                "id": "-NM6K8D6AX7aZ0WNfXbR"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemmodifiers",
+                "current": "Item Type: Melee Weapon, Damage: 1d4, Damage Type: Piercing, Range: 20/60,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20,Critical Range: 20",
+                "max": "",
+                "id": "-NM6K8D7CJq2BF5nhNXC"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_hasattack",
+                "current": 1,
+                "max": "",
+                "id": "-NM6K8D89B20oj1RHew5"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NM6K8D9KAm0LGPKDzoT"
+            },
+            {
+                "name": "repeating_inventory_-NM6K8Cxeo0YijuUNy5S_itemattackid",
+                "current": "-NM6K8DBVvlqvEM6OsX8",
+                "max": "",
+                "id": "-NM6K8E0KjT6yFB7Zrm4"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6K8E24lPS4FasSxSX"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_itemid",
+                "current": "-NM6K8Cxeo0YijuUNy5S",
+                "max": "",
+                "id": "-NM6K8E5GNK6y1VBjPe8"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkname",
+                "current": "Dagger",
+                "max": "",
+                "id": "-NM6K8E7ecqbIL6L6m5v"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_dmgbase",
+                "current": "1d4",
+                "max": "",
+                "id": "-NM6K8E90oOiTnknShMM"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_dmgtype",
+                "current": "Piercing",
+                "max": "",
+                "id": "-NM6K8EAplvHACmVlhya"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkrange",
+                "current": "20/60",
+                "max": "",
+                "id": "-NM6K8ECK1c7wqeBo5W6"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkattr_base",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6K8EDLHo40PRZ3HS3"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_dmgattr",
+                "current": "@{dexterity_mod}",
+                "max": "",
+                "id": "-NM6K8EEzirEJ-btBq7s"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkmagic",
+                "current": "",
+                "max": "",
+                "id": "-NM6K8EFGGmVNoLiyTAi"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkdmgtype",
+                "current": "1d4+3 Piercing ",
+                "max": "",
+                "id": "-NM6K8F-7-55oexfs1_D"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_rollbase_dmg",
+                "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6K8F1zRudd8Zffp-g"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_rollbase_crit",
+                "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4 + 3[DEX]]]}} {{dmg1type=Piercing}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d4]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[3d6[Sneak Attack]]]}} {{globaldamagecrit=[[3d6[Sneak Attack]]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6K8F2UUAE8RaWFRhN"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_atkbonus",
+                "current": "+6",
+                "max": "",
+                "id": "-NM6K8F4zPRSoZCu5ned"
+            },
+            {
+                "name": "repeating_attack_-NM6K8DBVvlqvEM6OsX8_rollbase",
+                "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 3[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+                "max": "",
+                "id": "-NM6K8F685WiYVrjEhM2"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7cbZGD74--fR-Hy_itemname",
+                "current": "Crowbar",
+                "max": "",
+                "id": "-NM6L7cb_GD74--fR-Hz"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7cbZGD74--fR-Hy_itemweight",
+                "current": "5",
+                "max": "",
+                "id": "-NM6L7cdOjufWG6P12l-"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7cbZGD74--fR-Hy_itemcontent",
+                "current": "Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.",
+                "max": "",
+                "id": "-NM6L7cfbIjK9sXcHJD6"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7cbZGD74--fR-Hy_itemcount",
+                "current": "1",
+                "max": "",
+                "id": "-NM6L7chyqrxaVOj3evl"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7ciR6omCZxRJUY1_itemname",
+                "current": "Common Clothes",
+                "max": "",
+                "id": "-NM6L7ciR6omCZxRJUY2"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7ciR6omCZxRJUY1_itemweight",
+                "current": "3",
+                "max": "",
+                "id": "-NM6L7ckgwQaLBoobLMw"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7ciR6omCZxRJUY1_itemcontent",
+                "current": "Category: Items, Item Type: adventuring gear, Weight: 3, Requires Attunement: No",
+                "max": "",
+                "id": "-NM6L7cmaZT4WE4YQ3el"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7ciR6omCZxRJUY1_itemcount",
+                "current": "1",
+                "max": "",
+                "id": "-NM6L7cnNSay3dFbOskm"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7coIH0EJJorF3TK_itemname",
+                "current": "Pouch",
+                "max": "",
+                "id": "-NM6L7coIH0EJJorF3TL"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7coIH0EJJorF3TK_itemweight",
+                "current": "1",
+                "max": "",
+                "id": "-NM6L7cpQulZTmMKf3cf"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7coIH0EJJorF3TK_itemcontent",
+                "current": "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to ⅕ cubic foot or 6 pounds of gear.",
+                "max": "",
+                "id": "-NM6L7crWhuCNTkKyQuf"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7coIH0EJJorF3TK_itemcount",
+                "current": "1",
+                "max": "",
+                "id": "-NM6L7csuEpi13A5_v67"
+            },
+            {
+                "name": "background",
+                "current": "Criminal",
+                "max": "",
+                "id": "-NM6LKMh5Vhid3A6mHNJ"
+            },
+            {
+                "name": "gp",
+                "current": 15,
+                "max": "",
+                "id": "-NM6LKMlKS8JVpSzvp8w"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_name",
+                "current": "Criminal Contact",
+                "max": "",
+                "id": "-NM6LKMncLaZfwdLj9M_"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_source",
+                "current": "Background",
+                "max": "",
+                "id": "-NM6LKMpzuR8X8r5diAO"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_source_type",
+                "current": "Criminal",
+                "max": "",
+                "id": "-NM6LKMrWmqvyDEbnn8q"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6LKMtBz0MEWw0jfX7"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_description",
+                "current": "You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.",
+                "max": "",
+                "id": "-NM6LKMuANIb6e26JAOD"
+            },
+            {
+                "name": "deception_prof",
+                "current": "(@{pb}*@{deception_type})",
+                "max": "",
+                "id": "-NM6LKMx39QgpLiOFEoc"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolname",
+                "current": "Gaming Set",
+                "max": "",
+                "id": "-NM6LKMzFhCpdtmxvSba"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolbonus_base",
+                "current": "@{pb}",
+                "max": "",
+                "id": "-NM6LKN-lQFRLHfyAFuN"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6LKN0zndK6ghmINJA"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolattr",
+                "current": "QUERY",
+                "max": "",
+                "id": "-NM6LKN1pGSyFh86Dfdy"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolbonus",
+                "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}+0+@{pb}",
+                "max": "",
+                "id": "-NM6LKN2Zes_c6jIv715"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolroll",
+                "current": "@{wtype}&{template:simple} {{rname=@{toolname}}} {{mod=@{toolbonus}}} {{r1=[[@{d20}+@{toolbonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{toolbonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6LKN30r-8ntI8MfiH"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolattr_base",
+                "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}",
+                "max": "",
+                "id": "-NM6LKN30r-8ntI8MfiI"
+            },
+            {
+                "name": "repeating_tool_-NM6LKMyn1tXix9P1jRf_toolbonus_display",
+                "current": "?",
+                "max": "",
+                "id": "-NM6LKN4-hxwa33Fuv0T"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolname",
+                "current": "Thieves' Tools",
+                "max": "",
+                "id": "-NM6LKN5J-wurQjfSnRa"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolbonus_base",
+                "current": "@{pb}",
+                "max": "",
+                "id": "-NM6LKN65ZBd4ShHUPdb"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NM6LKN7KRnYcknJT-Ev"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolattr",
+                "current": "QUERY",
+                "max": "",
+                "id": "-NM6LKN8KOcNewOav7z6"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolbonus",
+                "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}+0+@{pb}",
+                "max": "",
+                "id": "-NM6LKN9W--951N7u6Uq"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolroll",
+                "current": "@{wtype}&{template:simple} {{rname=@{toolname}}} {{mod=@{toolbonus}}} {{r1=[[@{d20}+@{toolbonus}[Mods]@{pbd_safe}]]}} {{always=1}} {{r2=[[@{d20}+@{toolbonus}[Mods]@{pbd_safe}]]}} {{global=@{global_skill_mod}}} @{charname_output}",
+                "max": "",
+                "id": "-NM6LKN9W--951N7u6Ur"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolattr_base",
+                "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}",
+                "max": "",
+                "id": "-NM6LKNAtsusnDGfEfiX"
+            },
+            {
+                "name": "repeating_tool_-NM6LKN5J-wurQjfSnRZ_toolbonus_display",
+                "current": "?",
+                "max": "",
+                "id": "-NM6LKNAtsusnDGfEfiY"
+            },
+            {
+                "name": "personality_traits",
+                "current": "I always have a plan for when things go wrong.\nThe best way to get me to do something is to tell me I can't do it.",
+                "max": "",
+                "id": "-NM6LKNCUwVfFb9brYCg"
+            },
+            {
+                "name": "ideals",
+                "current": "Charity. I steal from the wealthy so that I can help people in need. (Good)",
+                "max": "",
+                "id": "-NM6LKND20BVF3pg2kHQ"
+            },
+            {
+                "name": "bonds",
+                "current": "I'm guilty of a terrible crime. I hope I can redeem myself for it.",
+                "max": "",
+                "id": "-NM6LKNEJtB211gNSFLI"
+            },
+            {
+                "name": "flaws",
+                "current": "When faced with a choice between money and my friends, I usually choose the money.",
+                "max": "",
+                "id": "-NM6LKNFsPPi4aObnBx1"
+            },
+            {
+                "name": "repeating_traits_-NM6LKMgdQZqL8qbIeir_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NM6LQ1YiFC1BwcMghi9"
+            },
+            {
+                "name": "persuasion_prof",
+                "current": "(@{pb}*@{persuasion_type})",
+                "max": "",
+                "id": "-NM6LZl9B6Y_iuCZv0dr"
+            },
+            {
+                "name": "medicine_prof",
+                "current": "0",
+                "max": "",
+                "id": "-NM6M8Oeya1YTDBY2RM8"
+            },
+            {
+                "name": "repeating_damagemod_-NLwoghjMHNi80TYKIP8_global_damage_name",
+                "current": "Sneak Attack",
+                "max": "",
+                "id": "-NM6NM638L-ODf4Jm1jW"
+            },
+            {
+                "name": "repeating_damagemod_-NLwoghjMHNi80TYKIP8_global_damage_damage",
+                "current": "3d6",
+                "max": "",
+                "id": "-NM6NMWIJBla1q-2rEjn"
+            },
+            {
+                "name": "repeating_damagemod_-NLwoghjMHNi80TYKIP8_global_damage_type",
+                "current": "Sneak",
+                "max": "",
+                "id": "-NM6NSfvHBMi-fIyxyJx"
+            },
+            {
+                "name": "options-class-selection",
+                "current": "on",
+                "max": "",
+                "id": "-NM6NkPaL2IE9UhZPlqR"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemname",
+                "current": "Studded Leather Armor",
+                "max": "",
+                "id": "-NMBBJOPMVVe734mEDub"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemcount",
+                "current": 1,
+                "max": "",
+                "id": "-NMBBJORuoCPb9f1_fDl"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemproperties",
+                "current": "",
+                "max": "",
+                "id": "-NMBBJOT2Lw7GjWXup78"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemweight",
+                "current": "13",
+                "max": "",
+                "id": "-NMBBJOUKccn-OX01jY4"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemcontent",
+                "current": "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\n\n",
+                "max": "",
+                "id": "-NMBBJOWR1vHvywKSoVg"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_itemmodifiers",
+                "current": "Item Type: Light Armor, AC: 12",
+                "max": "",
+                "id": "-NMBBJOYmwQ3UvfR6A9J"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_hasattack",
+                "current": 0,
+                "max": "",
+                "id": "-NMBBJO_F1HJmtVgfkEx"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_useasresource",
+                "current": 0,
+                "max": "",
+                "id": "-NMBBJOav4CMrZtVGtrM"
+            },
+            {
+                "name": "repeating_inventory_-NM6L7ciR6omCZxRJUY1_equipped",
+                "current": "1",
+                "max": "",
+                "id": "-NMBBLX3z3WQki2Z3ODA"
+            },
+            {
+                "name": "repeating_inventory_-NMBBJOHzGrcdmq3528J_equipped",
+                "current": "1",
+                "max": "",
+                "id": "-NMBBPf4qpEOEMisYrhg"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_description",
+                "current": "As a bonus action, you give yourself advantage on\nyour next attack roll on the current turn. You can\nuse this bonus action only if you haven't moved\nduring this turn, and after you use the bonus action,\nyour speed is 0 until the end of the current turn.",
+                "max": "",
+                "id": "-NMBHnA7snV-XQV9331p"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_name",
+                "current": "STEADY AIM",
+                "max": "",
+                "id": "-NMBHp81p46c14_ky0Lw"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_source",
+                "current": "Classe",
+                "max": "",
+                "id": "-NMBHqfLhuAylfY9l8kM"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_source_type",
+                "current": "3rd-level rogue feature",
+                "max": "",
+                "id": "-NMBHt7DdGKymfTtAeZd"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NMBHt9rj87sRw1UTJZp"
+            },
+            {
+                "name": "repeating_traits_-NMBHmcCnup8tLbpYhVB_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NMBHtsX3UJuvZJSYLzy"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_name",
+                "current": "Assassin",
+                "max": "",
+                "id": "-NMBLW5mFT9XsjJWsajS"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_source",
+                "current": "Class",
+                "max": "",
+                "id": "-NMBLW5qg238PtJcHIic"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_source_type",
+                "current": "Rogue (Assassin 3)",
+                "max": "",
+                "id": "-NMBLW5skKdyMSe1vuP-"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_description",
+                "current": "A partir do 3° nível, você fica mais mortal quando pega seus oponentes desprevenidos. Você tem vantagem nas jogadas de\nataque contra qualquer criatura que ainda não tenha chegado ao turno dela no combate.\nAlém disso, quando você aplicar seu ataque furtivo, você pode fazer com que o ataque se torne um crítico. Após fazer isso 2\nvezes, você deve realizar um descanso curto ou longo para recuperar os usos dessa característica.",
+                "max": "",
+                "id": "-NMBLW5vdYb_MmMLYntW"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_options-flag",
+                "current": "0",
+                "max": "",
+                "id": "-NMBLW5xju9tLc6f2UBo"
+            },
+            {
+                "name": "repeating_traits_-NMBLW5mFT9XsjJWsajR_display_flag",
+                "current": "on",
+                "max": "",
+                "id": "-NMBLYkSFMOpUEjqtwFU"
+            },
+            {
+                "name": "subclass",
+                "current": "Assassin",
+                "max": "",
+                "id": "-NMBLa3E3kgmd1_kvbKq"
+            },
+            {
+                "name": "hitdietype",
+                "current": "8",
+                "max": "",
+                "id": "-NMBLaCWO3qiBQqcStiN"
+            },
+            {
+                "name": "spellcasting_ability",
+                "current": "0*",
+                "max": "",
+                "id": "-NMBLaC_TUJC7X5v98vh"
+            },
+            {
+                "name": "strength_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-NMBLaCbGmTjqCDCujDN"
+            },
+            {
+                "name": "constitution_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-NMBLaCdBh98CA1WDd01"
+            },
+            {
+                "name": "wisdom_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-NMBLaCftD9W7irBMDjV"
+            },
+            {
+                "name": "charisma_save_prof",
+                "current": 0,
+                "max": "",
+                "id": "-NMBLaCgb0mgDuKg-x3w"
+            }
+        ],
+        "abilities": []
+    }
+}
